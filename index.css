@@ -1,0 +1,204 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&family=Kadwa:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kadwa:wght@400;700&display=swap');
+* {
+    background-color: black;
+    margin: 0;
+    scroll-behavior: smooth;
+}
+header {
+    margin-top: 50px;
+    display: flex;
+    width: 1630px;
+    height: 72px;
+    margin-left: 145px;
+}
+.name {
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 255, 0, 1);
+    font-size: 28px;
+}
+.nav {
+    display: flex;
+    gap: 30px;
+    padding-left: 1200px;
+}
+.nav-bar {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    color: white;
+    padding-top: 15px;
+    text-decoration: none;
+}
+.legacy {
+    display: flex;
+    margin-top: 70px;
+}
+.block {
+    display: flex;
+    flex-direction: column;
+}
+.img-one {
+    margin-left: 150px;
+}
+.Razer {
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 255, 0, 1);
+    font-size: 36px;
+}
+.mouse-name {
+    margin-left: 313px;
+    padding-top: 50px;
+}
+.razer-text {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    padding-left: 137px;
+    padding-top: 50px;
+}
+.more {
+    width: 306px;
+    height: 56px;
+    color: rgba(0, 255, 0, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 30px;
+    border-radius: 15px;
+    border:1px solid rgba(0, 255, 0, 1);
+    margin-top: 60px;
+    margin-left: 392px;
+}
+.name-block {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: rgba(0, 255, 0, 1);
+    font-size: 32px;
+    text-align: center;
+    margin-top: 134px;
+}
+.per-block {
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.item-block {
+    width: 470px;
+    height: 400px;
+    background-color: rgba(41, 37, 37, 1);
+    border-radius: 15px;
+}
+.img-mouse {
+    background-color: rgba(41, 37, 37, 1);
+    padding-left: 15px;
+    padding-top: 20px;
+    border-radius: 15px;
+}
+.Mmouse {
+    background-color: rgba(41, 37, 37, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: rgba(0, 255, 0, 1);
+    font-size: 24px;
+    margin-top: 32px;
+    margin-left: 29px;
+}
+.mouse-opis {
+    background-color: rgba(41, 37, 37, 1);
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    color: rgba(136, 136, 136, 1);
+    margin-top: 30px;
+    margin-left: 29px;
+}
+.per-block {
+    display: flex;
+    gap: 105px;
+}
+.otzv {
+    display: flex;
+}
+.otzv-one {
+    margin-left: 150px;
+    margin-top: 50px;
+}
+.photo {
+    margin-left: 50px;
+}
+.zag {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 24px;
+    margin-left: 30px;
+}
+.text-min {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    color: rgba(136, 136, 136, 1);
+    font-size: 14px;
+    margin-left: 30px;
+    padding-top: 10px;
+    line-height: 20px;
+}
+.prim {
+    margin-top: 110px;
+    margin-left: 150px;
+    display: flex;
+}
+.setup {
+    margin-left: 130px;
+}
+.setup-opis {
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 255, 0, 1);
+    font-size: 36px;
+    margin-top: 30px;
+}
+.set-opis {
+    font-family: "Inter", sans-serif;
+    font-weight: 200;
+    font-size: 20px;
+    margin-top: 25px;
+}
+.number-two {
+    margin-left: 170px;
+}
+footer {
+    display: flex;
+    margin-left: 150px;
+    margin-top: 80px;
+}
+.warrior {
+    font-family: "Kadwa", serif;
+    font-weight: 700;
+    font-style: normal;
+    color: rgba(0, 255, 0, 1);
+    font-size: 28px;
+}
+.end {
+    display: flex;
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 1125px;
+    gap: 35px;
+}
+::-webkit-scrollbar-thumb {
+    background-color: rgba(0, 255, 0, 1);
+    border-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: black;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
