@@ -10,7 +10,7 @@
 <body>
 <header>
         <div class="nav-container">
-            <a href="index.html" class="logo">STT-ORENBURG</a>
+            <a href="index.html" class="logo">Faded</a>
             <a href="index.html" class='nav'>Вернуться назад</a>
         </div>
     </header>
