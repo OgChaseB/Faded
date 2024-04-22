@@ -14,18 +14,19 @@
             <a href="index.html" class='nav'>Вернуться назад</a>
         </div>
     </header>
-    <form action="vendor/signin.php" method="post">
+    <!-- <div class="main"> -->
+    <form action="vendor/signup.php" method="post" enctype="multipart/form-data">
         <div class="login_block">
-        <label>Логин</label>
         <input type="text" name="login" placeholder="Введите свой логин" required>
-        <label>Пароль</label>
-        <input type="password" name="password" placeholder="Введите пароль"required><br>
-        <button type="submit">Войти</button>
+        <input type="password" name="password" placeholder="Введите пароль" required>
+        <input type="password" name="password_confirm" placeholder="Подтвердите пароль" required>
+        <input type="password" name="password_confirm" placeholder="Введите код" required><br>
+        <button type="submit">Зарегистрироваться</button>
         <p>
-            У вас нет аккаунта? - <a href="register.php">Зарегистрируйтесь</a>
+            У вас уже есть аккаунт? - <a href=".//login.php">Авторизируйтесь</a>!
         </p>
         <?php
-             if ($_SESSION['message']) {
+            if ($_SESSION['message']) {
                 echo '<p class="msg"> ' . $_SESSION['message'] . ' </p>';
             }
             unset($_SESSION['message']);
@@ -33,6 +34,6 @@
         </div>
         
     </form>
-
+        <!-- </div> -->
 </body>
 </html>
